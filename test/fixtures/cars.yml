@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+   make: 
+  model: MyString
+  vin: 1
+  parts: 
+
+two:
+   make: 
+  model: MyString
+  vin: 1
+  parts: 

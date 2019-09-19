@@ -1,0 +1,15 @@
+current directory: /Users/jamescoleman/Programming/railsworkspace/carmanufacturer/vendor/cache/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/jamescoleman/.rvm/rubies/ruby-2.4.1/bin/ruby -I /Users/jamescoleman/.rvm/rubies/ruby-2.4.1/lib/ruby/site_ruby/2.4.0 -r ./siteconf20190919-16830-uefbpu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jamescoleman/Programming/railsworkspace/carmanufacturer/vendor/cache/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/jamescoleman/Programming/railsworkspace/carmanufacturer/vendor/cache/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/jamescoleman/Programming/railsworkspace/carmanufacturer/vendor/cache/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190919-16830-1coz721/skiptrace/internal

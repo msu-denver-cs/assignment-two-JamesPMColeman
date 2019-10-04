@@ -3,9 +3,11 @@
 one:
   make: one
   model: MyString
+  year: 2000
   VIN: 1
 
 two:
   make: two
   model: MyString
+  year: 2001
   VIN: 1

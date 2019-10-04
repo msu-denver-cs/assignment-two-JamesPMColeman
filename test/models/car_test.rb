@@ -8,6 +8,7 @@ class CarTest < ActiveSupport::TestCase
     assert car.errors[:year].any?
     assert car.errors[:VIN].any?
   end
+
   #test "year must be 1885 or later" do
   #  car = Car.new(model:    "Some car",
   #                VIN:      123874)

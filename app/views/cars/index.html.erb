@@ -29,10 +29,17 @@
 </table>
 
 <br>
+<%= form_tag(search_cars_url, method: "get") do %>
+  <%= label_tag( :query, "Search for:") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Search") %>
+<% end %>
+<br>
 
 <%= link_to 'New Car', new_car_path %><br>
 <br>
 <%= link_to 'Makes', makes_path %>
 <%= link_to 'Parts', parts_path %>
+<%= link_to 'Cars', cars_path %>
 
 

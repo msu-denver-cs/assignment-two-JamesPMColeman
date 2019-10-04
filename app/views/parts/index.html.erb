@@ -1,7 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Parts</h1>
-
+<br>
+<%= link_to 'New Part', new_part_path %><br>
+<br>
+<%= form_tag(search_parts_url, method: "get") do %>
+  <%= label_tag( :query, "Search for:") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Search") %>
+<% end %>
 <table>
   <thead>
     <tr>
@@ -26,7 +33,6 @@
 
 <br>
 
-<%= link_to 'New Part', new_part_path %><br>
-<br>
+
 <%= link_to 'Cars', cars_path %>
 <%= link_to 'Makes', makes_path %>

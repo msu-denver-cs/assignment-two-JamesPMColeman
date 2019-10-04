@@ -2,6 +2,16 @@
 
 <h1>Makes</h1>
 
+<br>
+<%= link_to 'New Make', new_make_path %><br>
+<br>
+<%= form_tag(search_makes_url, method: "get") do %>
+  <%= label_tag( :query, "Search for:") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+<br>
 <table>
   <thead>
     <tr>
@@ -26,7 +36,6 @@
 
 <br>
 
-<%= link_to 'New Make', new_make_path %><br>
-<br>
 <%= link_to 'Cars', cars_path %>
 <%= link_to 'Parts', parts_path %>
+<%= link_to 'Makes', makes_path %>

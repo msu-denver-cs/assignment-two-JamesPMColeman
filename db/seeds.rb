@@ -1,6 +1,5 @@
 Make.delete_all
-Make.create([{ name: 'Abarth', country: 'Italy'
-},
+Make.create([{ name: 'Abarth', country: 'Italy' },
     { name: 'Acura', country: 'Japan' },
     { name: 'Alfa-Romeo', country: 'Italy' },
     { name: 'AMC', country: 'United States' },

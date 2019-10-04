@@ -5,7 +5,7 @@
 <%= link_to 'New Part', new_part_path %><br>
 <br>
 <%= form_tag(search_parts_url, method: "get") do %>
-  <%= label_tag( :query, "Search for:") %>
+  <%= label_tag( :query, "Search for a part:") %>
   <%= text_field_tag(:query) %>
   <%= submit_tag("Search") %>
 <% end %>
@@ -36,3 +36,4 @@
 
 <%= link_to 'Cars', cars_path %>
 <%= link_to 'Makes', makes_path %>
+<%= link_to 'Parts', parts_path %>

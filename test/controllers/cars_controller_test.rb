@@ -19,7 +19,6 @@ class CarsControllerTest < ActionDispatch::IntegrationTest
     assert_difference('Car.count') do
       post cars_url, params: { car: { VIN: @car.VIN, make_id: @car.make_id, model: @car.model } }
     end
-
     assert_redirected_to car_url(Car.last)
   end
 

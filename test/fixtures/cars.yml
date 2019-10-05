@@ -10,4 +10,4 @@ two:
   make: two
   model: MyString
   year: 2001
-  VIN: 1
+  VIN: 2

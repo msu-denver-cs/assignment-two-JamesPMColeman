@@ -29,6 +29,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# AutocompleteRails is a lightweight component with easily understandable, minimal, source code.
+gem 'autocomplete_rails'
+# jQuery! For Rails! So great.
+gem 'jquery-rails'
+# This gem packages the jQuery UI assets for the Rails asset pipeline, so you never have to download a custom
+# package through the web interface again.
+gem 'jquery-ui-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
